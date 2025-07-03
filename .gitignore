@@ -1,0 +1,25 @@
+# Ignorar directorios de PyInstaller
+build/
+dist/
+
+# Ignorar directorios de caché de Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Ignorar logs u otros archivos temporales
+*.log
+*.tmp
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Ignorar entornos virtuales (si usas uno en la raíz del proyecto)
+venv/
+env/
+
+# Ignorar archivos específicos que no deben ser versionados
+# Si tu IDE crea archivos de configuración, añádelos aquí.
+.vscode/
+.idea/
